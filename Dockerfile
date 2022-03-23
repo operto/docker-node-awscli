@@ -5,7 +5,7 @@ LABEL repository="https://github.com/jeanlescure/docker-node-awscli"
 LABEL homepage="https://jeanlescure.io/"
 LABEL maintainer="Jean Lescure <opensource@jeanlescure.io>"
 
-ENV NODE_VERSION 14.15.0
+ENV NODE_VERSION 16.14.2
 
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \
